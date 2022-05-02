@@ -1,0 +1,51 @@
+{
+  "name": "Tele ᴀɪ ChatBot",
+  "description": "This is Anime Themed AI ChatBot on Telegram",
+  "keywords": [
+    "telegram",
+    "bot",
+    "chat"
+  ],
+  "repository": "https://github.com/New-Dev3/AI-ChatBot",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your Bot token, Get it from @Botfather",
+      "required": true,
+      "value": ""
+    },
+    "LANGUAGE": {
+      "description": "The language used by the bot",
+      "value": "id"
+    },
+    "API_ID":{
+      "description": "your API_ID id, take it from my.telegram.org",
+      "required": true,
+      "value": ""
+    },
+    "API_HASH":{
+      "description": "your API_HASH, take it from my.telegram.org",
+      "required": true,
+      "value": ""
+    },
+    "BOT_USERNAME":{
+      "description": "Your chat bot username",
+      "required": true,
+      "value": ""
+    },
+    "BOT_NAME":{
+      "description": "Name of your chat bot",
+      "required": true,
+      "value": ""
+    },
+    "MEDIA":{
+      "description": "Video Create a start bot, Sent Any Your Bot Pic OR You Can Set Any Video, Get it From @vTelegraphBot",
+      "required": false,
+      "value": ""
+    },
+    "ARQ_API_KEY":{
+      "description": "Fill it with your arq token, Get This Value From @ARQRobot",
+      "required": true,
+      "value": ""
+    }
+  }
+}
